@@ -53,7 +53,7 @@ echo $h "Maaf Nasib Anda Memang Jones"
 echo ""
 fi
 
-if [ $oxlynx = 2 ] || [ $oxlynx = Gabisa Move On ]
+if [ $oxlynx = 2 ] || [ $oxlynx = Tips Move On ]
 then
 echo $b  "Tunggu Sebentar..."
 echo $pk "Mulai Proses Penginstallan"

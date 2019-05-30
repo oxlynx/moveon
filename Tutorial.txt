@@ -1,12 +1,12 @@
-## TOOLS LAMPU MERAH ##
+## TOOLS MOVE ON ##
 
 $ pkg update && pkg upgrade
 $ pkg install bash
 $ pkg install git
 $ cd /sdcard
-$ git clone https://github.com/oxlynx/lampumerah
-$ cd lampu merah
-$ sh lampumerah.sh
+$ git clone https://github.com/oxlynx/moveon
+$ cd moveon
+$ sh moveon.sh
 
 NOTE : TOOLS INI ADALAH TOOLS PENGHAPUS DATA, TOOLS INI DIBUAT BUKAN UNTUK KEJAHATAN MELAINKAN UNTUK PEMBELAJARAN. SAYA SELAKU PEMBUAT SCRIPT TIDAK BERTANGGUNG JAWAB ATAS TINDAKAN YANG ANDA LAKUKAN
 # TIDAK UNTUK DISHARE #
